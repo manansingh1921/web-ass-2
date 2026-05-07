@@ -1,0 +1,97 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(135deg, #1f2a5a, #3448a4);
+    color: white;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.left,
+.right {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.search {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #ff6b2c;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e75c1d;
+}
+
+#weatherBox {
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+#history span {
+    background: #ff6b2c;
+    color: white;
+    padding: 5px 10px;
+    margin: 4px;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.console {
+    background: white;
+    color: black;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 740px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#consoleBox {
+    background: #0a1a44;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    min-height: 80px;
+}
